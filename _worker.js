@@ -1,10 +1,10 @@
 
 // 部署完成后在网址后面加上这个，获取自建节点和机场聚合节点，/?token=auto或/auto或
 
-let mytoken = 'auto';
+let mytoken = '7b256753';
 let guestToken = ''; //可以随便取，或者uuid生成，https://1024tools.com/uuid
-let BotToken = ''; //可以为空，或者@BotFather中输入/start，/newbot，并关注机器人
-let ChatID = ''; //可以为空，或者@userinfobot中获取，/start
+let BotToken = '6029083833:AAHVOEJZc46rwImeQtamRubMPqR-CzZkSnw'; //可以为空，或者@BotFather中输入/start，/newbot，并关注机器人
+let ChatID = '5968763112'; //可以为空，或者@userinfobot中获取，/start
 let TG = 0; //小白勿动， 开发者专用，1 为推送所有的访问信息，0 为不推送订阅转换后端的访问信息与异常访问
 let FileName = 'CF-Workers-SUB';
 let SUBUpdateTime = 6; //自定义订阅更新时间，单位小时
@@ -13,14 +13,17 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray
-https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list_raw.txt
-https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt
-https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
-https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/airport_sub_merge.txt
-https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge.txt
-https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub
-`
+hy2://0d2e03da-9226-47b4-b2e8-ed42129479ab@146.56.134.229:3001/?insecure=1#%F0%9F%87%B0%F0%9F%87%B7%20%E6%98%9F%E4%BA%91
+vless://0d2e03da-9226-47b4-b2e8-ed42129479ab@146.56.134.229:1234/?type=ws&encryption=none&host=miskak.eu.org&path=%2F0d2e03da-9226-47b4-b2e8-ed42129479ab-vless%3Fed%3D2048&security=tls&sni=miskak.eu.org&alpn=default#%F0%9F%87%B0%F0%9F%87%B7%20WART%20%E9%A6%96%E5%B0%94
+vless://ffffffff-ffff-ffff-ffff-ffffffffffff@cm.kuxueyun.com:20202/?type=ws&encryption=none&host=kom.clou.eu.org&path=%2F%3Fed%3D2048&security=tls&sni=kom.clou.eu.org#%F0%9F%87%AD%F0%9F%87%B0%20WART
+vless://ad8d9e72-a9e2-43ee-a828-87c900f9d47a@111.119.212.208:59876/?type=tcp&encryption=none&sni=addons.mozilla.org&fp=chrome&security=reality&pbk=RTlycYCi0XA3jCVkhMjJ6drAO3XcXEJzhVzcHkNNjAI&sid=#%F0%9F%87%B8%F0%9F%87%AC%20%E7%8B%AE%E5%9F%8E
+hy2://a323e0ac-145b-4f1d-aef3-99950447a960@192.9.129.216:55556/?insecure=1&sni=www.bing.com#%F0%9F%87%BA%F0%9F%87%B2%20%E7%94%B2%E9%AA%A8%E6%96%87%20%E5%9C%A3%E4%BD%95%E5%A1%9E
+vless://8702cb64-0132-476d-871e-e41c62e7efbd@cm.kuxueyun.com:20202/?type=ws&encryption=none&host=pierce-scratch-wider-won.trycloudflare.com&path=%2Fsba-vl%3Fed%3D2048&security=tls&sni=pierce-scratch-wider-won.trycloudflare.com#%F0%9F%87%BA%F0%9F%87%B8%20%E5%9C%A3%E4%BD%95%E5%A1%9E
+vless://096382d2-d25b-4bcb-87b4-299e6dcfa2e7@cm.kuxueyun.com:20202/?type=ws&encryption=none&flow=&host=screenshot-segments-metro-warren.trycloudflare.com&path=%2Fsba-vl%3Fed%3D2048&security=tls&sni=screenshot-segments-metro-warren.trycloudflare.com#%F0%9F%87%BA%F0%9F%87%B8%20%E5%9C%A3%E8%8D%B7%E8%A5%BF
+hysteria2://a2b09545-cdc4-4286-8392-577277184e52@140.83.33.12:5556?&sni=undefined&insecure=1#%F0%9F%87%AF%F0%9F%87%B5%20%E7%94%B2%E9%AA%A8%E6%96%87%20%E4%B8%9C%E4%BA%ACU
+hysteria2://45b41158-74f9-4ad7-bba7-03e2231f86c8@140.238.11.30:4638?&sni=undefined&insecure=1#%F0%9F%87%B0%F0%9F%87%B7%20%E7%94%B2%E9%AA%A8%E6%96%87%E9%A6%96%E5%B0%94%20U
+vless://ad8d9e72-a9e2-43ee-a828-87c900f9d47a@cm.kuxueyun.com:20202?path=%2Fad8d9e72-a9e2-43ee-a828-87c900f9d47a-vless&type=ws&encryption=none&security=tls&sni=sin.952796.xyz#%F0%9F%87%B8%F0%9F%87%AC%20%E7%8B%AE%E5%9F%8E%E4%B8%AD%E8%BD%AC
+vless://53ed4107-83e4-4e54-bc22-bf93f1fcf186@cm.kuxueyun.com:20202/?type=ws&encryption=none&host=hk.952796.xyz&path=%2F53ed4107-83e4-4e54-bc22-bf93f1fcf186-vless%3Fed%3D2048&security=tls&sni=hk.952796.xyz#%F0%9F%87%AD%F0%9F%87%B0%20HKG%20%E7%A7%BB%E5%8A%A8V6`
 
 let urls = [];
 let subConverter = "SUBAPI.cmliussss.net"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
