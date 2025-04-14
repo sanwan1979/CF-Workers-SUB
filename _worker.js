@@ -25,7 +25,8 @@ hysteria2://45b41158-74f9-4ad7-bba7-03e2231f86c8@140.238.11.30:4638?&sni=undefin
 vless://ad8d9e72-a9e2-43ee-a828-87c900f9d47a@cm.kuxueyun.com:20202?path=%2Fad8d9e72-a9e2-43ee-a828-87c900f9d47a-vless&type=ws&encryption=none&security=tls&sni=sin.952796.xyz#%F0%9F%87%B8%F0%9F%87%AC%20%E7%8B%AE%E5%9F%8E%E4%B8%AD%E8%BD%AC
 vless://53ed4107-83e4-4e54-bc22-bf93f1fcf186@cm.kuxueyun.com:20202/?type=ws&encryption=none&host=hk.952796.xyz&path=%2F53ed4107-83e4-4e54-bc22-bf93f1fcf186-vless%3Fed%3D2048&security=tls&sni=hk.952796.xyz#%F0%9F%87%AD%F0%9F%87%B0%20HKG%20%E7%A7%BB%E5%8A%A8V6
 vless://8fb32f48-0051-401f-a1bc-48406ad5aeb2@45.32.164.48:37345?type=tcp&security=reality&sni=addons.mozilla.org&pbk=qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY&flow=xtls-rprx-vision&fp=chrome#X|Vicky|400GB
-vless://4415fc08-9d11-4a22-a38e-2468644f4e74@132.226.132.226:25608?type=tcp&security=reality&sni=www.speedtest.org&pbk=UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM&flow=xtls-rprx-vision&fp=chrome#L|linuxdo|400GB`
+vless://4415fc08-9d11-4a22-a38e-2468644f4e74@132.226.132.226:25608?type=tcp&security=reality&sni=www.speedtest.org&pbk=UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM&flow=xtls-rprx-vision&fp=chrome#L|linuxdo|400GB
+vless://9326d2fc-5d5e-31e4-8e7b-b3800ae6c642@154.201.91.70:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&sni=learn.microsoft.com&fp=random&pbk=6CRKsmWYwlivNa1Zv_X_wOVZHdVujOnbP5eGJdUhq3E&sid=51e5cd9ae8199dd1&spx=&#9929+CMI2节点`
 
 let urls = [];
 let subConverter = "SUBAPI.cmliussss.net"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
