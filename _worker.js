@@ -26,8 +26,7 @@ vless://ad8d9e72-a9e2-43ee-a828-87c900f9d47a@cm.kuxueyun.com:20202?path=%2Fad8d9
 vless://53ed4107-83e4-4e54-bc22-bf93f1fcf186@cm.kuxueyun.com:20202/?type=ws&encryption=none&host=hk.952796.xyz&path=%2F53ed4107-83e4-4e54-bc22-bf93f1fcf186-vless%3Fed%3D2048&security=tls&sni=hk.952796.xyz#%F0%9F%87%AD%F0%9F%87%B0%20HKG%20%E7%A7%BB%E5%8A%A8V6
 ss://YWVzLTEyOC1nY206VmFjSXJpRWJ6N3VUVVdOb1d5SFR6aTlOMHFlVkhRZlExa2h4UGNHdGdITT0@1.168.185.56:23333#%F0%9F%87%B9%F0%9F%87%BC%20%E5%8F%B0%E6%B9%BE%E5%AE%B6%E5%AE%BDIP
 vless://9326d2fc-5d5e-31e4-8e7b-b3800ae6c642@154.201.91.70:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&sni=learn.microsoft.com&fp=random&pbk=6CRKsmWYwlivNa1Zv_X_wOVZHdVujOnbP5eGJdUhq3E&sid=51e5cd9ae8199dd1&spx=&#9929+CMI2节点
-https://linuxdo.miaoqiqi.me/linuxdo/love
-https://bh.jiedianxielou.workers.dev/api/v1/client/subscribe?token=linuxdo`
+https://linuxdo.miaoqiqi.me/linuxdo/love`
 
 let urls = [];
 let subConverter = "SUBAPI.cmliussss.net"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
