@@ -25,7 +25,8 @@ hysteria2://45b41158-74f9-4ad7-bba7-03e2231f86c8@140.238.11.30:4638?&sni=undefin
 vless://ad8d9e72-a9e2-43ee-a828-87c900f9d47a@fastm.kxy.ovh:20202?path=%2Fad8d9e72-a9e2-43ee-a828-87c900f9d47a-vless&type=ws&encryption=none&security=tls&sni=sin.952796.xyz#%F0%9F%87%B8%F0%9F%87%AC%20%E7%8B%AE%E5%9F%8E%E4%B8%AD%E8%BD%AC
 vless://eed9d023-a9be-4740-9045-7c8b7ea8be0c@fastm.kxy.ovh:20202/?type=ws&encryption=none&host=hk.952796.xyz&path=%2Feed9d023-a9be-4740-9045-7c8b7ea8be0c-vless%3Fed%3D2048&security=tls&sni=hk.952796.xyz#%F0%9F%87%AD%F0%9F%87%B0%20HKG%20%E7%A7%BB%E5%8A%A8V6
 vless://ffffffff-ffff-ffff-ffff-ffffffffffff@ws.952796.xyz:443?path=%2F&security=tls&encryption=none&host=ws.952796.xyz&type=ws&sni=ws.952796.xyz#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%E8%87%AA%E5%BB%BA
-vless://ffffffff-ffff-ffff-ffff-ffffffffffff@ws.clou.eu.org:443?path=%2F&security=tls&encryption=none&host=ws.clou.eu.org&type=ws&sni=ws.clou.eu.org#%F0%9F%87%B0%F0%9F%87%B7%20%E9%9F%A9%E5%9B%BD`
+vless://ffffffff-ffff-ffff-ffff-ffffffffffff@ws.clou.eu.org:443?path=%2F&security=tls&encryption=none&host=ws.clou.eu.org&type=ws&sni=ws.clou.eu.org#%F0%9F%87%B0%F0%9F%87%B7%20%E9%9F%A9%E5%9B%BD
+vless://ffffffff-ffff-ffff-ffff-ffffffffffff@nat64.952796.xyz:443?path=%2F&security=tls&encryption=none&host=nat64.952796.xyz&type=ws&sni=nat64.952796.xyz#%F0%9F%87%AD%F0%9F%87%B0%20NAT64`
 
 let urls = [];
 let subConverter = "SUBAPI.cmliussss.net"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
