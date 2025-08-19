@@ -13,7 +13,7 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-hy2://0d2e03da-9226-47b4-b2e8-ed42129479ab@146.56.134.229:3001/?insecure=1#%F0%9F%87%B0%F0%9F%87%B7%20%E6%98%9F%E4%BA%91
+vless://925fa4e8-bc74-4276-ada2-69ef7b564929@miskak.eu.org:41250/?type=ws&encryption=none&flow=&host=miskak.eu.org&path=%2Fpqbews&security=tls&sni=miskak.eu.org&fp=chrome#%F0%9F%87%B0%F0%9F%87%B7%20%E6%98%9F%E4%BA%91
 vless://0d2e03da-9226-47b4-b2e8-ed42129479ab@146.56.134.229:1234/?type=ws&encryption=none&host=miskak.eu.org&path=%2F0d2e03da-9226-47b4-b2e8-ed42129479ab-vless%3Fed%3D2048&security=tls&sni=miskak.eu.org&alpn=default#%F0%9F%87%B0%F0%9F%87%B7%20WART%20%E9%A6%96%E5%B0%94
 vless://ffffffff-ffff-ffff-ffff-ffffffffffff@198.12.95.225:443/?type=ws&encryption=none&host=kom.clou.eu.org&path=%2F%3Fed%3D2048&security=tls&sni=kom.clou.eu.org#%F0%9F%87%AD%F0%9F%87%B0%20WART
 hy2://e576c077-b653-4ee5-9924-311e708a5ee0@sin.952796.xyz:30574/?sni=sin.952796.xyz#%F0%9F%87%B8%F0%9F%87%AC%20%E7%8B%AE%E5%9F%8E
