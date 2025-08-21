@@ -27,7 +27,9 @@ vmess://eyJhZGQiOiJzaW4uOTUyNzk2Lnh5eiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJo
 vless://ffffffff-ffff-ffff-ffff-ffffffffffff@ws.952796.xyz:443?path=%2F&security=tls&encryption=none&host=ws.952796.xyz&type=ws&sni=ws.952796.xyz#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%E8%87%AA%E5%BB%BA
 vless://2317083a-b75e-466d-b59f-65775e88ecf9@43.240.13.121:41602/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=software.download.prss.microsoft.com&fp=chrome&security=reality&pbk=u5IGMXCoF7t9A08NsoXuza6pwStvB2rknvEZc88Iik0&sid=6ba85179e30d4fc2#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF%E4%B9%9D%E9%BE%8D%E2%9C%94
 vless://ffffffff-ffff-ffff-ffff-ffffffffffff@nat64.952796.xyz:443?path=%2F&security=tls&encryption=none&host=nat64.952796.xyz&type=ws&sni=nat64.952796.xyz#%F0%9F%87%AD%F0%9F%87%B0%20NAT64
-vless://99dfe68b-730e-4b39-b85a-d28739d9d908@miskak.eu.org:14025/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=miskak.eu.org&fp=chrome&security=reality&pbk=h7wqwPGAnUAPcDYfgTGPmIFdDSVdfwsjNbE4VR59PQY&sid=6ba85179e30d4fc2#%F0%9F%87%B0%F0%9F%87%B7%20%E9%A6%96%E7%88%BE%E2%9C%94`
+vless://99dfe68b-730e-4b39-b85a-d28739d9d908@miskak.eu.org:14025/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=miskak.eu.org&fp=chrome&security=reality&pbk=h7wqwPGAnUAPcDYfgTGPmIFdDSVdfwsjNbE4VR59PQY&sid=6ba85179e30d4fc2#%F0%9F%87%B0%F0%9F%87%B7%20%E9%A6%96%E7%88%BE%E2%9C%94
+vless://f75550d0-4735-4325-8409-ce7a4786f561@156.226.175.68:17859/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=academy.nvidia.com&fp=chrome&security=reality&pbk=i35DlOmzSHbZFpDkqOOgj4Xfyzz2mYt8nk0gqUQF3ig&sid=6ba85179e30d4fc2#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9C%8B%E2%9C%94
+vless://f75550d0-4735-4325-8409-ce7a4786f561@156.226.175.68:17859/?type=grpc&encryption=none&flow=&serviceName=grpc&sni=academy.nvidia.com&fp=chrome&security=reality&pbk=i35DlOmzSHbZFpDkqOOgj4Xfyzz2mYt8nk0gqUQF3ig&sid=6ba85179e30d4fc2#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9C%8B%E2%84%A1%E2%9C%94`
 
 let urls = [];
 let subConverter = "SUBAPI.cmliussss.net"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
