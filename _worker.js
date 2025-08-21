@@ -13,7 +13,7 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-vless://925fa4e8-bc74-4276-ada2-69ef7b564929@miskak.eu.org:41250/?type=ws&encryption=none&flow=&host=miskak.eu.org&path=%2Fpqbews&security=tls&sni=miskak.eu.org&fp=chrome#%F0%9F%87%B0%F0%9F%87%B7%20%E6%98%9F%E4%BA%91
+vless://99dfe68b-730e-4b39-b85a-d28739d9d908@miskak.eu.org:19827/?type=tcp&encryption=none&flow=xtls-rprx-vision&security=tls&sni=miskak.eu.org&fp=chrome#%F0%9F%87%B0%F0%9F%87%B7%20%E6%98%9F%E4%BA%91%E2%9C%94
 vless://5c5a240d-9b28-4bff-a42b-b417aa654637@160.30.5.118:56584/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=academy.nvidia.com&fp=chrome&security=reality&pbk=YncMXPiv1dvsBlw_cxmHS9eITNB9C_qanntMAF6B41A&sid=6ba85179e30d4fc2#%F0%9F%87%B2%F0%9F%87%BE%20%E9%A6%AC%E4%BE%86%E8%A5%BF%E4%BA%9E%E2%9C%94
 vless://ffffffff-ffff-ffff-ffff-ffffffffffff@198.12.95.225:443/?type=ws&encryption=none&host=kom.clou.eu.org&path=%2F%3Fed%3D2048&security=tls&sni=kom.clou.eu.org#%F0%9F%87%AD%F0%9F%87%B0%20WART
 hy2://e576c077-b653-4ee5-9924-311e708a5ee0@sin.952796.xyz:30574/?sni=sin.952796.xyz#%F0%9F%87%B8%F0%9F%87%AC%20%E7%8B%AE%E5%9F%8E
