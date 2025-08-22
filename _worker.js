@@ -31,7 +31,7 @@ vless://820a223e-de30-4e0a-b1f0-72606c2a8cd2@47.239.42.127:53692/?type=tcp&encry
 vless://99dfe68b-730e-4b39-b85a-d28739d9d908@miskak.eu.org:14025/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=miskak.eu.org&fp=chrome&security=reality&pbk=h7wqwPGAnUAPcDYfgTGPmIFdDSVdfwsjNbE4VR59PQY&sid=6ba85179e30d4fc2#%F0%9F%87%B0%F0%9F%87%B7%20%E9%A6%96%E7%88%BE%E2%9C%94
 vless://f75550d0-4735-4325-8409-ce7a4786f561@156.226.175.68:17859/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=academy.nvidia.com&fp=chrome&security=reality&pbk=i35DlOmzSHbZFpDkqOOgj4Xfyzz2mYt8nk0gqUQF3ig&sid=6ba85179e30d4fc2#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9C%8B%E2%9C%94
 vless://f75550d0-4735-4325-8409-ce7a4786f561@156.226.175.68:17859/?type=grpc&encryption=none&flow=&serviceName=grpc&sni=academy.nvidia.com&fp=chrome&security=reality&pbk=i35DlOmzSHbZFpDkqOOgj4Xfyzz2mYt8nk0gqUQF3ig&sid=6ba85179e30d4fc2#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9C%8B%E2%84%A1%E2%9C%94
-vless://9576ab05-bbf1-4ba5-a13c-2700e7c0f312@8.217.82.168:54369/?type=tcp&encryption=none&flow=&sni=www.cloudflare.com&fp=chrome&security=reality&pbk=QkioWcPyeQj0H348m5e2ue9HDW3hjiwA0Nu_dedOJT0&sid=f117b1ed#%F0%9F%87%AD%F0%9F%87%B0%20%E9%98%BF%E9%87%8C%E9%9B%B2%E2%9C%94 `
+vless://9576ab05-bbf1-4ba5-a13c-2700e7c0f312@8.217.82.168:54369/?type=tcp&encryption=none&flow=&sni=www.cloudflare.com&fp=chrome&security=reality&pbk=QkioWcPyeQj0H348m5e2ue9HDW3hjiwA0Nu_dedOJT0&sid=f117b1ed#%F0%9F%87%AD%F0%9F%87%B0%20%E9%98%BF%E9%87%8C%E9%9B%B2%E2%9C%94`
 
 let urls = [];
 let subConverter = "SUBAPI.cmliussss.net"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
