@@ -33,7 +33,8 @@ vless://f75550d0-4735-4325-8409-ce7a4786f561@120.79.252.15:20003/?type=tcp&encry
 vless://f75550d0-4735-4325-8409-ce7a4786f561@156.226.175.68:17859/?type=grpc&encryption=none&flow=&serviceName=grpc&sni=academy.nvidia.com&fp=chrome&security=reality&pbk=i35DlOmzSHbZFpDkqOOgj4Xfyzz2mYt8nk0gqUQF3ig&sid=6ba85179e30d4fc2#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9C%8B%E2%84%A1%E2%9C%94
 vless://9576ab05-bbf1-4ba5-a13c-2700e7c0f312@120.79.252.15:20001/?type=tcp&encryption=none&flow=&sni=www.cloudflare.com&fp=chrome&security=reality&pbk=QkioWcPyeQj0H348m5e2ue9HDW3hjiwA0Nu_dedOJT0&sid=f117b1ed#%F0%9F%87%AD%F0%9F%87%B0%20%E9%98%BF%E9%87%8C%E9%9B%B2%E2%9C%94
 vless://8f03e34f-4c52-4dac-9fec-07262a5c0223@13.230.34.30:443?encryption=none&security=tls&alpn=h2%2Chttp%2F1.1&fp=chrome&type=ws&host=hongkong.xiaoyaogpt.com&path=%2Fws#CDN%E5%B0%8F%E6%98%9F%E6%98%9F-%E5%B0%8F%E6%98%9F%E6%98%9F
-vless://bc92d976-1470-4e6c-9d30-a9074b8711db@120.79.252.15:52147/?type=tcp&encryption=none&flow=&sni=music.apple.com&fp=ios&security=reality&pbk=SrcqaY3ZllIHuvCz9zptWobXaZC-2E6k3A-48uhZhFE&sid=91c4fa9e#%F0%9F%87%AF%F0%9F%87%B5%20%E7%94%B2%E9%AA%A8%E6%96%87%20%E4%B8%9C%E4%BA%ACN
+vless://8483edc8-03f6-4c7d-a77e-cc73558a2064@120.79.252.15:52147/?type=tcp&encryption=none&flow=&sni=music.apple.com&fp=ios&security=reality&pbk=7yeX_gmr03hVFitl4f7fhKvge3ADU85z15KAHYTsgUg&sid=36296750ae#%F0%9F%87%AF%F0%9F%87%B5%20%E7%94%B2%E9%AA%A8%E6%96%87%20%E4%B8%9C%E4%BA%ACN
+vless://9acf23b6-5151-46cc-b6b7-b52c896d6aeb@120.79.252.15:52147/?type=tcp&encryption=none&flow=&sni=yahoo.com&fp=chrome&security=reality&pbk=y4xCZqjf8YR5foABVkEpiMbaIgzqBqHA2Q6_Ro19E2A&sid=6ed84d#%F0%9F%87%AF%F0%9F%87%B5%20%E7%94%B2%E9%AA%A8%E6%96%87%20%E4%B8%9C%E4%BA%ACU-zxa1xzgg
 `
 
 let urls = [];
