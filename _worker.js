@@ -13,7 +13,7 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-vless://99dfe68b-730e-4b39-b85a-d28739d9d908@120.79.252.15:35216/?type=tcp&encryption=none&flow=xtls-rprx-vision&security=tls&sni=miskak.eu.org&fp=chrome#%F0%9F%87%B0%F0%9F%87%B7%20%E6%98%9F%E4%BA%91%E2%9C%94
+vless://99dfe68b-730e-4b39-b85a-d28739d9d908@47.245.32.127:35216/?type=tcp&encryption=none&flow=xtls-rprx-vision&security=tls&sni=miskak.eu.org&fp=chrome#%F0%9F%87%B0%F0%9F%87%B7%20%E6%98%9F%E4%BA%91%E2%9C%94
 vless://5c5a240d-9b28-4bff-a42b-b417aa654637@160.30.5.118:56584/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=academy.nvidia.com&fp=chrome&security=reality&pbk=YncMXPiv1dvsBlw_cxmHS9eITNB9C_qanntMAF6B41A&sid=6ba85179e30d4fc2#%F0%9F%87%B2%F0%9F%87%BE%20%E9%A6%AC%E4%BE%86%E8%A5%BF%E4%BA%9E%E2%9C%94
 hy2://e576c077-b653-4ee5-9924-311e708a5ee0@sin.952796.xyz:30574/?sni=sin.952796.xyz#%F0%9F%87%B8%F0%9F%87%AC%20%E7%8B%AE%E5%9F%8E
 hy2://a323e0ac-145b-4f1d-aef3-99950447a960@192.9.129.216:55556/?insecure=1&sni=www.bing.com#%F0%9F%87%BA%F0%9F%87%B2%20%E7%94%B2%E9%AA%A8%E6%96%87%20%E5%9C%A3%E4%BD%95%E5%A1%9E
