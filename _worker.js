@@ -14,8 +14,7 @@ let timestamp = 4102329600000;//2099-12-31
 //节点链接 + 订阅链接
 let MainData = `
 vless://99dfe68b-730e-4b39-b85a-d28739d9d908@47.245.32.127:35216/?type=tcp&encryption=none&flow=xtls-rprx-vision&security=tls&sni=miskak.eu.org&fp=chrome#%F0%9F%87%B0%F0%9F%87%B7%20%E6%98%9F%E4%BA%91%E2%9C%94
-vless://5c5a240d-9b28-4bff-a42b-b417aa654637@160.30.5.118:56584/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=academy.nvidia.com&fp=chrome&security=reality&pbk=YncMXPiv1dvsBlw_cxmHS9eITNB9C_qanntMAF6B41A&sid=6ba85179e30d4fc2#%F0%9F%87%B2%F0%9F%87%BE%20%E9%A6%AC%E4%BE%86%E8%A5%BF%E4%BA%9E%E2%9C%94
-hy2://e576c077-b653-4ee5-9924-311e708a5ee0@sin.952796.xyz:30574/?sni=sin.952796.xyz#%F0%9F%87%B8%F0%9F%87%AC%20%E7%8B%AE%E5%9F%8E
+hy2://e20f75cf@111.119.212.208:34373/?insecure=1&sni=www.bing.com#%F0%9F%87%B8%F0%9F%87%AC%20%E7%8B%AE%E5%9F%8E%E2%9C%94
 hy2://a323e0ac-145b-4f1d-aef3-99950447a960@192.9.129.216:55556/?insecure=1&sni=www.bing.com#%F0%9F%87%BA%F0%9F%87%B2%20%E7%94%B2%E9%AA%A8%E6%96%87%20%E5%9C%A3%E4%BD%95%E5%A1%9E
 vless://571a98f3-5fdf-4bde-947c-d26f1a238a24@120.79.252.15:20000/?type=tcp&encryption=none&flow=&sni=www.cloudflare.com&fp=chrome&security=reality&pbk=zsazjeYgE56gw8k2uz5vGTPYIM3GnMpcj7fKoe1fpTA&sid=2c55514f#%F0%9F%87%BA%F0%9F%87%B8%20%E5%9C%A3%E4%BD%95%E5%A1%9E%E2%9C%94
 hysteria2://a2b09545-cdc4-4286-8392-577277184e52@140.83.33.12:5556?&sni=undefined&insecure=1#%F0%9F%87%AF%F0%9F%87%B5%20%E7%94%B2%E9%AA%A8%E6%96%87%20%E4%B8%9C%E4%BA%ACU
@@ -26,7 +25,6 @@ vless://2317083a-b75e-466d-b59f-65775e88ecf9@43.240.13.121:41602/?type=tcp&encry
 vless://ffffffff-ffff-ffff-ffff-ffffffffffff@nat64.952796.xyz:443?path=%2F&security=tls&encryption=none&host=nat64.952796.xyz&type=ws&sni=nat64.952796.xyz#%F0%9F%87%AD%F0%9F%87%B0%20NAT64
 vless://bf9c85c5-3b3d-4419-ae0c-4c0be0b782d6@47.239.42.127:43972?security=reality&encryption=none&pbk=o59ZhISmaYk-FTIXZkz_eJ1UifgieWailGMzP0EaJVE&headerType=none&fp=chrome&spx=%2F&type=tcp&sni=forestgreenacademy.com&sid=44#%F0%9F%87%AD%F0%9F%87%B0%20%E9%98%BF%E9%87%8C%E4%BA%91HK
 vless://99dfe68b-730e-4b39-b85a-d28739d9d908@miskak.eu.org:14025/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=miskak.eu.org&fp=chrome&security=reality&pbk=h7wqwPGAnUAPcDYfgTGPmIFdDSVdfwsjNbE4VR59PQY&sid=6ba85179e30d4fc2#%F0%9F%87%B0%F0%9F%87%B7%20%E9%A6%96%E7%88%BE%E2%9C%94
-vless://f75550d0-4735-4325-8409-ce7a4786f561@156.226.175.68:17859/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=academy.nvidia.com&fp=chrome&security=reality&pbk=i35DlOmzSHbZFpDkqOOgj4Xfyzz2mYt8nk0gqUQF3ig&sid=6ba85179e30d4fc2#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9C%8B%E2%9C%94
 vless://187d8148-05bb-42a6-946e-188ec41de550@8.217.82.168:42580?security=reality&encryption=none&pbk=BCYbSch_G06d9thoR5Ud9QKPGcb55BmoRH7zAwEl3kk&headerType=none&fp=chrome&spx=%2F&type=tcp&sni=mpmaige.com&sid=0c#%F0%9F%87%AD%F0%9F%87%B0%20%E9%98%BF%E9%87%8C%E9%9B%B2%E2%9C%94
 vless://8483edc8-03f6-4c7d-a77e-cc73558a2064@47.245.32.127:52147/?type=tcp&encryption=none&flow=&sni=www.cisco.com&fp=chrome&security=reality&pbk=7yeX_gmr03hVFitl4f7fhKvge3ADU85z15KAHYTsgUg&sid=36296750ae#%F0%9F%87%AF%F0%9F%87%B5%20%E7%94%B2%E9%AA%A8%E6%96%87%20%E4%B8%9C%E4%BA%ACN
 vless://a3101a99-736c-4986-85a1-db2d58448bf0@140.83.33.12:43697/?type=tcp&encryption=none&flow=&sni=yahoo.com&fp=chrome&security=reality&pbk=qati7KkL0kH5XWjIm_D2WKyScs2HJZ0rZDMwxkCoEnE&sid=200e1e0e8d#%F0%9F%87%AF%F0%9F%87%B5%20%E7%94%B2%E9%AA%A8%E6%96%87%20%E4%B8%9C%E4%BA%ACU2
