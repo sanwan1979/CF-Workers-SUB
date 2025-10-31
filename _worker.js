@@ -13,7 +13,7 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-vless://a90db49e-53e9-346a-bd63-195058d98765@47.245.32.127:35216/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=learn.microsoft.com&fp=random&security=reality&pbk=v_RRpalvBP5sxzvvDqxCikHsdEPZjV0pMuvrZTnjdW0&sid=169cd8fd1f4f4d9e#%F0%9F%87%B0%F0%9F%87%B7%20%E6%98%9F%E4%BA%91%E2%9C%94
+vless://5ece6b6d-17cf-4657-b794-251b621647b7@146.56.134.229:19827/?type=tcp&encryption=none&flow=&sni=cn.firstallpower.com&fp=chrome&security=reality&pbk=fbylHtu5p5jZuBPKL-ofZIKL4tBj3SoMnU4X5t1tcHM&sid=9e#%F0%9F%87%B0%F0%9F%87%B7%20%E6%98%9F%E4%BA%91%E2%9C%94
 hy2://e20f75cf@111.119.212.208:34373/?insecure=1&sni=www.bing.com#%F0%9F%87%B8%F0%9F%87%AC%20%E7%8B%AE%E5%9F%8E%E2%9C%94
 hy2://a323e0ac-145b-4f1d-aef3-99950447a960@192.9.129.216:55556/?insecure=1&sni=www.bing.com#%F0%9F%87%BA%F0%9F%87%B2%20%E7%94%B2%E9%AA%A8%E6%96%87%20%E5%9C%A3%E4%BD%95%E5%A1%9E
 vless://571a98f3-5fdf-4bde-947c-d26f1a238a24@120.79.252.15:20000/?type=tcp&encryption=none&flow=&sni=www.cloudflare.com&fp=chrome&security=reality&pbk=zsazjeYgE56gw8k2uz5vGTPYIM3GnMpcj7fKoe1fpTA&sid=2c55514f#%F0%9F%87%BA%F0%9F%87%B8%20%E5%9C%A3%E4%BD%95%E5%A1%9E%E2%9C%94
